@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method Example</title>
+</head>
+<body>
+
+    <h1>Map Method Example</h1>
+
+    <script>
+        // JavaScript code using the map method
+        document.addEventListener("DOMContentLoaded", function() {
+            // Sample array
+            const numbers = [1, 2, 3, 4, 5];
+
+            // Using map to double each element in the array
+            const doubledNumbers = numbers.map(function(number) {
+                return number * 2;
+            });
+
+            // Displaying the result
+            console.log("Original Numbers:", numbers);
+            console.log("Doubled Numbers:", doubledNumbers);
+
+            // You can perform other actions with the doubledNumbers array here
+            // For now, let's just log it to the console
+        });
+    </script>
+
+</body>
+</html>
+
